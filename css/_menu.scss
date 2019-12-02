@@ -1,0 +1,31 @@
+  
+  @function weight($weight-name) {
+    @return map-get($font-weights, $weight-name);
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: weight(medium);
+    font-family: 'Acme', sans-serif;
+
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  p {
+    color: $font-color;
+  }
+  a {
+    text-decoration: none;
+    color: $font-color;
+  }
+  li {
+    list-style: none;
+  }
+  body {
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,22 @@
+.circuit {
+    background: url(../images/OhmsLaw/finalOffBulb.png);
+    height: 600px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
+
+.try-me-button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    background: #8AAAE5;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;    
+    outline: none;
+    border: none;
+    float: left;
+}

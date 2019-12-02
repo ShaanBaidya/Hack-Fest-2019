@@ -1,0 +1,48 @@
+label{
+    position: relative;
+    font-size: 1.5em;
+    left: -7em;
+    color: $asset-color;
+    font-family:  'Acme', sans-serif;
+}
+
+.form-control--style{
+    padding: 1.2em 0;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 1em;
+    font-weight: 600;
+    font-family: 'Acme', sans-serif;
+    width: 44%;
+
+    &:focus{
+      border: 2px solid $secondary-color;
+    }
+
+  }
+  .formulae_calculator{
+    margin: 8em 0;
+
+}
+.click-me-button-0, .click-me-button-1{
+    border-radius: 35px;
+    background: #fff;
+    border: 2px solid #fff;
+    color: #443E7C;
+    font-size: 2rem;
+    font-weight: weight(medium);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    padding: 0.5em 1.5em;
+    margin-left: -17em;
+    font-family: 'Acme', sans-serif;
+}
+.forumlae__img img{
+    width: 104%;
+    margin: 5em 0;
+    @include transition-ease;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}

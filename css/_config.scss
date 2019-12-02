@@ -1,0 +1,45 @@
+// Colors 
+$primary-color : #443E7C;
+$secondary-color: #01994b;
+$asset-color: #fff;
+$base-color : #FD7400;
+
+// Font weights
+$font-weights:(
+    "light":300,
+    "normal" : 400,
+    "medium": 600,
+    "bold":700
+);
+// Resets
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*, *::before , *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// Transition
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+ 
+ }
+//  Margin after each section
+ @mixin padding-section {
+     padding: 3em 0;
+
+ }
+
+ //  Common button
+@mixin btn-common {
+    border-radius: 35px;
+    background: $asset-color;
+    border: 2px solid $asset-color;
+    color: $primary-color;
+    font-size: 2rem;
+    font-weight: weight(medium);
+    @include transition-ease;
+}

@@ -1,0 +1,44 @@
+.kids {
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: $primary-color url(../img/img11.png);
+    background-position: 0 0;
+
+    &__title {
+      h2,p
+      {
+        color: $asset-color;
+      }
+    }
+  }
+  .eggGame {
+    padding: 3em 0;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #01994b url(../img/img11.png);
+    background-position: 0 0;
+    background-repeat: repeat;
+
+    p{
+    font-size: 1.5em;
+    width: 80%;
+    margin: 1em auto;
+    }
+    .egg {
+        background: url('../img/finalEgg.png');
+        height: 200px;
+        width: 160px;
+        cursor: pointer;
+  }
+  .eggContainer {
+    text-align: -webkit-center;
+}
+.eggGame__info p{
+    text-align: left;
+
+}
+  }

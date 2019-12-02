@@ -1,0 +1,101 @@
+/* **************************
+******* Demonstration ********** */
+
+.experiments {
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background: $primary-color url(../img/img11.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  &__title {
+    h2,
+    p {
+      color: $asset-color;
+    }
+  }
+}
+.ohmslaw {
+  padding: 3em 0;
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background: #01994b url(../img/img11.png);
+  background-position: 0 0;
+  background-repeat: repeat;
+
+  &__experiment {
+      padding: 6em 0;
+      
+    .ohmslaw__wallpaper img {
+        width: 70%;
+        @include transition-ease;
+    
+        &:hover {
+          opacity: 0.8;
+        }
+    }
+        .ohmslaw__introduction p {
+            text-align: left;
+            line-height: 3em;
+        }
+    
+  }
+  &__demonstration--inputfield{
+      .inputfield__style{
+        margin: 0 auto;
+        width: 46%;
+        background: transparent;
+
+      
+      }
+      .btn-common{
+          @include btn-common;
+          background: $base-color;
+          color: $asset-color;
+          margin-top:0;
+          margin: 1em;
+          font-family: 'Acme', sans-serif;
+      }
+      .inputfield__form-control--style{
+        padding: 1.2em 0;
+        text-align: center;
+        font-size: 1.2em;
+        border-radius: 1em;
+        font-weight: 600;
+        font-family: 'Acme', sans-serif;
+        margin-bottom: 2em;
+     
+        &:focus{
+            border: 2px solid $secondary-color;
+            box-shadow: none;
+          }
+    
+      }
+  }
+  #label-1{
+    font-size: 1.5em;
+    margin-left: 9em;
+    text-transform: uppercase;
+  }
+ 
+}
+.circuit {
+    background: url(../img/finalOffBulb.png);
+    height: 600px;
+    width: 500px;
+    background-repeat: no-repeat;
+    margin-top: -5em;
+}
+#lineChart{
+    background: $asset-color;
+    opacity: 0.5;
+}
+.ohmslaw__graph p{
+    color: $asset-color;
+    width: 63%;
+    margin: 0px auto;
+    text-align: left;
+}

@@ -1,0 +1,7 @@
+.egg {
+    position: absolute;
+    background: url(../images/Egg/finalEgg.png);
+    height: 200px;
+    width: 160px;
+    cursor: pointer;
+}
